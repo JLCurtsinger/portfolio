@@ -128,21 +128,6 @@ max-width: 840px;
     max-width: 400px;
 }
 
-.form-control, 
-textarea {
-  max-width: 400px;
-  background-color: #000;
-  color: #fff;
-  letter-spacing: 1px;
-}
-
-/* Left contact page */
-.form-horizontal {
-    /*float: left;*/
-    max-width: 400px;
-    font-family: 'Lato';
-    font-weight: 400;
-}
 
 .gmail {
     margin-left: 53px;
