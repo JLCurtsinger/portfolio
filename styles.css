@@ -181,6 +181,11 @@ section {
 #projects a:hover {
   color: #2EE59D;
 }
+#projects a img {
+  margin: 0 auto;
+  transform: translateY(38%);
+  width: 4rem;
+}
 
 section a {
   color: var(--light-black);
