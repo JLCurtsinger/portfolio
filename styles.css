@@ -71,6 +71,9 @@ outline: none;
 
 #contact {
   width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 #contact-form {
@@ -208,4 +211,23 @@ section a {
 .send-button:hover {
   transform: scale(1.05);
   background-color: #2EE59D;
+}
+
+/* Responsive background images */
+@media (max-width: 768px) {
+  #contact {
+    background-image: url('images/photo-768.jpg');
+  }
+}
+
+@media (max-width: 1280px) {
+  #contact {
+    background-image: url('images/photo-1280.jpg');
+  }
+}
+
+@media (min-width: 1281px) {
+  #contact {
+    background-image: url('images/photo-1920.jpg');
+  }
 }
