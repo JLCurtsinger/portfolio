@@ -216,11 +216,11 @@ section a {
 /* Responsive background images */
 @media (max-width: 768px) {
   #contact {
-    background-image: url('images/photo-768.jpg');
+    background-image: url('images/BellRockSmall.jpg');
   }
 }
 
-@media (max-width: 1280px) {
+@media (min-width: 769px) and (max-width: 1280px) {
   #contact {
     background-image: url('images/photo-1280.jpg');
   }
