@@ -272,12 +272,12 @@ section a {
 
 @media (min-width: 769px) and (max-width: 1280px) {
   #contact {
-    background-image: url('images/photo-1280.jpg');
+    background-image: url('images/bellRockWide.jpg');
   }
 }
 
 @media (min-width: 1281px) {
   #contact {
-    background-image: url('images/photo-1920.jpg');
+    background-image: url('images/bellRockWide.jpg');
   }
 }
