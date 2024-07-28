@@ -252,15 +252,16 @@ section a {
 /* Responsive background images */
 @media (max-width: 768px) {
   #contact {
-    background-image: url('images/BellRockSmall.jpg');
-    background-size: cover; /* Ensure the image covers the entire area */
+    /* background-image: url('images/BellRockSmall.jpg'); */
+    background-repeat: no-repeat;
     background-position: center; /* Center the image */
+    background-size: cover; /* Ensure the image covers the entire area */
     padding-top: 550px;
   }
 
   #contact h1 {
-    color: rgb(226, 248, 99);font-weight: 600;
-
+    color: rgb(226, 248, 99);
+    font-weight: 600;
     margin-bottom: -5px; /* Adjust this value as needed */
   }
 
