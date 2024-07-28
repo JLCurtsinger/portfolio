@@ -36,3 +36,16 @@ function getScreenSize() {
         return largeImages;
     }
 }
+
+function setBackgroundImage() {
+    const images = getScreenSize();
+    const randomIndex = Math.floor(Math.random() * images.length);
+    const selectedImage = images[randomIndex];
+    document.getElementById('contact').style.setBackgroundImage = 'url(${selectedImage})';
+}
+
+// Call the function on page load
+window.onload = setRandomBackgroundImage;
+
+// Optional: Call the function on window resize to update the background image
+window.onresize = setRandomBackgroundImage;
