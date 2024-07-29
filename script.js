@@ -1,9 +1,11 @@
-// for animation
+
 document.addEventListener("DOMContentLoaded", function() {
+    // for animation
     var animationElement = document.getElementById('animation');
     setTimeout(function() {
         animationElement.style.opacity = 1;
     }, 600);
+
 });
 
 // arrays that contact images for various screen sizes
@@ -45,7 +47,7 @@ function setBackgroundImage() {
 }
 
 // Call the function on page load
-window.onload = setRandomBackgroundImage;
+window.onload = setBackgroundImage;
 
 // Optional: Call the function on window resize to update the background image
-window.onresize = setRandomBackgroundImage;
+window.onresize = setBackgroundImage;
