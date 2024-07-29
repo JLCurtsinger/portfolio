@@ -176,6 +176,7 @@ nav h1 {
 
 .nav-links {
   display: flex; 
+  flex-wrap: wrap;
   list-style-type: none; 
   padding: 0; 
   margin: 0;
@@ -197,7 +198,7 @@ nav h1 {
 }
 
 .nav-links a, .nav-name a {
-  margin: 0 15px;
+  margin: 0 10px; 
   text-decoration: none;
   color: var(--light-black);
 }
@@ -268,6 +269,14 @@ section a {
   #contact-form {
     margin-top: 0; /* Remove any top margin if present */
     padding-top: 0; /* Remove any top padding if present */
+  }
+
+  .nav-links a, .nav-name a {
+    margin: 0 5px;
+  }
+
+  .nav-links a {
+    font-size: 14px;
   }
 }
 
