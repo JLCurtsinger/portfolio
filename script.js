@@ -43,7 +43,7 @@ function setBackgroundImage() {
     const images = getScreenSize();
     const randomIndex = Math.floor(Math.random() * images.length);
     const selectedImage = images[randomIndex];
-    document.getElementById('contact').style.setBackgroundImage = 'url(${selectedImage})';
+    document.getElementById('contact').style.backgroundImage = `url(${selectedImage})`;
 }
 
 // Call the function on page load
