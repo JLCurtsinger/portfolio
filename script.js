@@ -57,5 +57,4 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Optional: Call the function on window resize to update the background image
     window.onresize = setBackgroundImage;
-
 });
