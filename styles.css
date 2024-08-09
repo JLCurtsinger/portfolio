@@ -250,6 +250,87 @@ section a {
   box-shadow: none;
 }
 
+/*----- thumbnail styles -----*/
+
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes Rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.transform-scale-anim:hover {
+  transform: scale(0.8);
+}
+
+/* Project grid styles */
+.project-grid {
+  display: grid;
+  background-color: rgba(0, 0, 0, 0.5); /* $transparent-black */
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  width: 90%;
+  max-width: 1500px;
+  grid-gap: 50px;
+  margin: auto;
+  align-items: center;
+}
+
+.project-card {
+  margin: 25px;
+  background-color: #1F2530; /* Adjusted color */
+}
+
+.project-card:hover span {
+  color: cornflowerblue;
+}
+
+.project-thumbnail {
+  height: calc(100% - 6.8rem);
+  object-fit: cover;
+  width: 100%;
+}
+
+.project-description {
+  font-size: 2.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+}
+
+.project-description span {
+  margin: 0 5px;
+  color: #1F2530; /* Adjusted color */
+  transition: color 0.3s ease-out;
+}
+
+.show-all-button {
+  border-radius: 5px;
+  font-size: 1.75rem;
+  width: 150px;
+  margin: 25px auto;
+  padding: 5px;
+  letter-spacing: 2px;
+  background-color: #ff4b0d; /* $form-second-color */
+}
+
+/*----- end of thumbnail styles -----*/
+
+
 /* Responsive background images */
 @media (max-width: 768px) {
   #contact {
