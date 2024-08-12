@@ -281,21 +281,25 @@ section a {
 
 /* Project grid styles */
 .project-grid {
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(9, 9, 9, 0.198);
   display: grid;
-  background-color: rgba(0, 0, 0, 0.5); /* $transparent-black */
+  background-color: rgba(255, 255, 255, 0.273); /* $transparent-black */
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   width: 90%;
   max-width: 1500px;
-  grid-gap: 50px;
+  grid-gap: 5px;
   margin: auto;
   align-items: center;
 }
 
 .project-card {
+  border-radius: 4px;
+  box-shadow: 0 1px 1px rgba(10, 10, 10, 0.287);
   color: white;
   font-family: Helvetica, Arial, sans-serif;
   margin: 25px;
-  background-color: #1F2530; /* Adjusted color */
+  background-color: #1a1a1ce7; /* Adjusted color */
 }
 
 .project-card:hover span {
